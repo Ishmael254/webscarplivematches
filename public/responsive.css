@@ -1,0 +1,691 @@
+/*-------------------------------------------------------------------------------------------------------------------------------
+
+This is main responsive CSS file that contains custom style rules used in this template
+---------------------------------------------------------------------------------------------------------------------------------
+Template Name: "SportStream"
+Version: 1.0 Initial Release
+Build Date: 07/20/2017
+Author: DesignHouse
+Website: http://sport.designhouse.rs
+Copyright: (C) 2017
+---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .hero-content {
+        width: 970px;
+    }
+    .hero-content h1 {
+        font-size: 7.5rem
+    }
+    .live-match .club-logo img {
+        height: 60px;
+    }
+    .live-match .live-clubs ul {
+        padding: 0px 30px;
+    }
+    .live-match h5 {
+        padding-top: 80px;
+    }
+    .owl-nav {
+        width: 100%;
+        padding-top: 26px;
+    }
+    .owl-nav .owl-prev,
+    .owl-nav .owl-next {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #202020;
+        color: #fff;
+    }
+    .owl-nav .owl-prev {
+        float: left;
+    }
+    .owl-nav .owl-next {
+        float: right;
+    }
+    .blog-img {
+        height: 293.33px;
+    }
+    .blog-text span.posted_on {
+        top: -20px;
+    }
+    .footer_contact li {
+        margin-top: 10px;
+    }
+    .footer_links h3 {
+        min-height: 55px;
+    }
+    .footer_sec {
+        padding: 0;
+    }
+    .upcoming-events .scores-line ul {
+        display: block;
+        width: 100%;
+    }
+    .upcoming-events .scores-line {
+        text-align: center;
+    }
+    .upcoming-events .scores-line ul.left,
+    .upcoming-events .scores-line ul.right {
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    .upcoming-events .scores-line ul.score {
+        margin-top: 10px;
+    }
+    .submit-button input.btn-def {
+        margin: 0 auto;
+    }
+    .in .navbar-nav.navbar-right {
+        background-color: #fff;
+        overflow: hidden;
+    }
+    /* player */
+    .jp-gui {
+        position: relative;
+        padding-top: 20px;
+    }
+    .ul.jp-buttons,
+    .jp-game-op,
+    .jplayer-sliders {
+        display: inherit;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .jp-gui .player-buttons,
+    .jp-gui .jp-clearboth {
+        display: initial;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .jp-game-op .player-buttons1 {
+        margin: 0 auto;
+        text-align: center;
+        float: right;
+    }
+    .jp-current-time,
+    .jp-duration {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .jp-game.middle li {
+        float: none;
+    }
+    .jp-game-op .right .club-logo {
+        padding-left: 0px;
+    }
+    .jp-game-op .jp-game.right li {
+        float: none;
+        display: inline-block;
+    }
+    .jp-game-op .jp-game.right {
+        text-align: right !important;
+    }
+    .jp-game-op .jp-game.right li.club-name {
+        padding-right: 10px;
+    }
+    .scrollToTop {
+        bottom: 30px;
+    }
+    .table-cell, .scores-line .club-name, .scores-line .club-logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .upcoming-events .scores-line ul.score {
+        margin: 0 auto;
+        text-align: center;
+        display: table;
+    }
+    .right .club-logo,
+    .left .club-logo {
+        padding: 0;
+                width: 40px;
+        height: auto;
+    }
+    .scores-line ul.left img,
+    .scores-line ul.right img {
+        width: 40px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .upcoming-events .scores-line {
+        padding-bottom: 10px;
+    }
+    .game-hero .scores-line ul.left,
+    .game-hero .scores-line ul.right {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .game-hero .scores-line ul.score {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .game-hero .scores-line {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    nav.navbar.bootsnav.navbar-fixed.no-background .logo-scrolled {
+        display: none !important;
+    }
+    nav.navbar.bootsnav.navbar-fixed.no-background .logo-display {
+        display: block !important
+    }
+    nav.navbar.bootsnav.no-background .navbar-toggle {
+        background-color: transparent;
+    }
+    nav.navbar.bootsnav.no-background.white .navbar-toggle {
+        color: #fff;
+    }
+    nav.navbar.bootsnav.no-background.white .attr-nav>ul>li>a {
+        color: #fff;
+    }
+    .navbar-brand img {
+        height: 30px;
+        width: auto;
+        margin-top: 5px;
+    }
+    .hero-content {
+        width: 750px;
+    }
+    .hero-content h1 {
+        font-size: 10vw
+    }
+    .circle-animated,
+    .circle-animated:after,
+    .hero-animation img {
+        height: 70vw;
+        width: 70vw
+    }
+    .hero,
+    #hero-slider,
+    .item {
+        height: 85vh;
+    }
+    .live-match .club-logo img {
+        height: 10vw;
+    }
+    .live-match .live-clubs ul {
+        min-width: 250px;
+    }
+    .live-match {
+        margin-right: 0px;
+    }
+    .footer_contact img {
+        height: 60px;
+        width: auto;
+    }
+    .footer_links h3 {
+        min-height: 30px;
+        padding-top: 20px;
+    }
+    .upcoming-events .results-item {
+        margin-bottom: 60px;
+    }
+    .upcoming-events-dashboard .scores-line .events-line-share .events-players,
+    .upcoming-events-dashboard .scores-line .events-line-share .button-live,
+    .upcoming-events-dashboard .scores-line .events-line-share .date-sec {
+        display: block;
+    }
+    .upcoming-events-dashboard .scores-line .events-line-share .date-sec .date span.day,
+    .upcoming-events-dashboard .scores-line .events-line-share .date-sec .date span.hrs {
+        display: block;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .upcoming-events-dashboard .scores-line .events-line-share .date-sec .date span {
+        padding-top: 25px;
+    }
+    .upcoming-events-dashboard .scores-line .events-line-share .date-sec .date span.day {
+        border-right: 0px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #c02820;
+    }
+    .upcoming-events-dashboard .scores-line .events-line-share .date-sec .date span.hrs {
+        padding-top: 5px;
+    }
+    .game-hero .scores-line ul.left img,
+    .game-hero .scores-line ul.right img {
+        height: 100px;
+        max-height: 100px;
+    }
+}
+
+
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .hero-bg-overlay {
+        display: none;
+    }
+    .hero-content {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .hero,
+    #hero-slider,
+    .item {
+        height: 35vh;
+        overflow: hidden;
+    }
+    .hero-content h1 {
+        width: 100%;
+        text-align: center;
+    }
+    nav.navbar.bootsnav.no-background.white .navbar-toggle {
+        color: #fff;
+    }
+    nav.navbar.bootsnav.navbar-fixed.no-background .logo-display {
+        display: block !important;
+    }
+    nav.navbar.bootsnav.navbar-fixed.no-background .logo-scrolled {
+        display: none !important;
+    }
+    nav.navbar.bootsnav.navbar-fixed .attr-nav .search i {
+        color: #202020;
+    }
+    nav.navbar.bootsnav.navbar-fixed.no-background.white .attr-nav .search i {
+        color: #fff;
+    }
+    .cta .container {
+        width: calc(100% - 40px);
+    }
+    .cta h1 {
+        padding-bottom: 30px;
+    }
+    .video {
+        height: 80vh;
+    }
+    .club-box {
+        margin-bottom: 50px;
+    }
+    .live-match .live-clubs ul {
+        padding: 0px 5px;
+    }
+    .footer_links.contact-info {
+        width: 60vw;
+        margin: 0 auto;
+    }
+    .footer_links.contact-info ul {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .copyright_sec,
+    .bottom_links_sec {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .footer_sec {
+        text-align: center;
+    }
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .blog-post .pic {
+        height: 70vw;
+    }
+    .club-detail .club-logo img {
+        width: 150px;
+    }
+    .club-profile-page table,
+    .club-profile-page table .club-header-content {
+        height: 200px;
+    }
+    tbody.club-header-content tr th.club-social {
+        width: 200px;
+    }
+    tbody.club-header-content tr th span {
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        margin-bottom: 5px;
+    }
+    .rank.rank-video .rank-container video {
+        width: 130%;
+    }
+    .hero,
+    #hero-slider,
+    .item {
+        height: 100vh;
+    }
+    .hero-content h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+    .hero-content input {
+        height: 20px;
+    }
+    .hero-content input,
+    .hero-content textarea {
+        padding: 20px;
+    }
+    tbody tr th.club-logo,
+    tbody.club-header-content tr th.club-social {
+        width: 100px
+    }
+    .scores-line ul.left img, .scores-line ul.right img {
+        display: none;
+    }
+    .upcoming-events .scores-line .events-players, .upcoming-events .scores-line .button-live, .upcoming-events .scores-line .teams, .upcoming-events .scores-line .date-sec {
+        display: block;
+    }
+    .dayDate.text-left {
+        text-align: center;
+    }
+    .scores-line ul {
+        min-height: unset;
+        height: auto;
+    }
+    .scores-line .club-name {
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .club-detail .club-logo {
+        width: 125px;
+        height: 125px;
+    }
+    .club-detail .club-header {
+        margin-left: 0px;
+        width: 100%;
+        padding: 20px 0px 40px 50px;
+    }
+    .date-sec .date span.day,
+    .date-sec .date span.hrs {
+        display: block;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .date-sec .date span {
+        padding-top: 25px;
+    }
+    .date-sec .date span.day {
+        border-right: 0px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #c02820;
+    }
+    .date-sec .date span.hrs {
+        padding-top: 5px;
+    }
+    .upcoming-events .scores-line .events-players,
+    .upcoming-events .scores-line .button-live,
+    .upcoming-events .scores-line .date-sec {
+        display: block;
+    }
+    .section18060 {
+        padding: 120px 0 60px 0;
+    }
+    .upcoming-events-dashboard ul.nav-tabs {
+        float: none;
+    }
+    .user-favorites .club-box .user-fav-img,
+    .user-favorites .club-box .favorites-box-content {
+        display: block;
+    }
+    .jp-game.left,
+    .jp-game.right,
+    .jp-game.middle {
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    .jp-game-op {
+        padding-bottom: 25px;
+    }
+    .footer_links.contact-info {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .footer_links.contact-info ul {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .footer_sec {
+        padding: 0;
+    }
+    .footer_bottom {
+        font-size: 12px;
+    }
+    .live-match .live-clubs ul {
+        min-width: 150px;
+    }
+    .live-match .live-clubs h3 {
+        font-size: 24px;
+    }
+    .scores-line {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+        align-items: center;
+    }
+    .scores-line ul.right,
+    .scores-line ul.left,
+    .scores-line .table-cell ul {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .scores-line .club-logo img {
+        width: 40px;
+        height: auto;
+    }
+    .club-detail .club-logo img {
+        width: 50px;
+        padding: 0px;
+    }
+    .club-header-content .club-logo {
+        width: 50px;
+    }
+    tbody.club-header-content tr th.club-social {
+        width: 75px;
+    }
+    .rank .rank-container {
+        position: relative;
+        padding: 0px;
+    }
+    .rank-container ul {
+        padding: 40px 0
+    }
+    .rank.rank-video .rank-container video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 42px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .live-match .live-clubs ul {
+        display: block;
+        min-width: 100%;
+    }
+    .icon {
+        width: 85vw;
+        height: 85vw;
+    }
+    .club-header-content {
+        width: 100%;
+        position: relative;
+    }
+    .club-detail .club-header {
+        margin-top: 60px;
+    }
+    .volume {
+        display: none;
+    }
+    .footer_links.contact-info {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer_links.contact-info li i,
+    .footer_links.contact-info li span {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .jp-game-op,
+    .jp-game-op .jp-game.left,
+    .jp-game-op .jp-game.middle,
+    .jp-game-op .jp-game.right {
+        max-width: 100%;
+        width: 100%;
+        display: grid;
+        margin: 0 auto;
+        text-align: center !important;
+    }
+    .jp-game-op .jp-game.middle {
+        max-width: 100%;
+        width: 100%;
+    }
+    .jp-game-op .left .club-logo,
+    .jp-game-op .right .club-logo,
+    .jp-game.right .club-logo img,
+    .jp-game.left .club-logo img {
+        display: none
+    }
+    .jp-game-op {
+        padding-bottom: 0px;
+    }
+    .footer_sec {
+        padding: 0;
+    }
+    .owl-item .item-live .club-name {
+        font-size: 14px;
+    }
+    .blog-img {
+        height: 60vw;
+    }
+    .live-match .live-clubs {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .scores-line ul.left, .scores-line ul.right {
+        min-width: unset;
+        width: auto;
+    }
+    .upcoming-events .results-item {
+        padding: 20px
+    }
+}
+
+@media only screen and (max-height: 732px) {
+    .video {
+        height: 140vh;
+    }
+}
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 380px) {
+   .club-header-content .club-logo {
+    display: none;
+    
+   } 
+} 
+@media only screen and (max-width: 320px) {
+    .footer_contact img {
+        height: 30px;
+        width: auto;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .hero-content.centered {
+        top: 40%;
+    }
+    .hero-content input::placeholder {
+        font-size: 14px;
+    }
+    .hero-content span i.fa {
+        color: #aaa;
+        right: 20px;
+        position: absolute;
+    }
+    .club-box.col-xs-4 {
+        width: 100%;
+    }
+    .live-match .live-clubs ul {
+        padding: 0px;
+    }
+    .mlr-15 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .upcoming-events-dashboard ul.nav-tabs {
+        float: none;
+        width: 100%;
+    }
+    .upcoming-events-dashboard ul.nav-tabs li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-tabs {
+        border: none;
+    }
+    .footer_links.contact-info li span {
+        font-size: 12px;
+    }
+    .footer_sec {
+        padding: 0;
+    }
+    .video {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 320px) and (max-height: 533px) {
+    .video {
+        height: 160vh;
+    }
+}
